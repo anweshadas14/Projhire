@@ -204,7 +204,7 @@ const Dashboard = ({ setSignInOpen }) => {
             </Podcasts>
           </FilterContainer>
           <FilterContainer>
-            <Topic>Comedy
+            <Topic>Artificial Intelligence and Machine Learning
               <Link to={`/showpodcasts/comedy`} style={{ textDecoration: "none" }}>
                 <Span>Show All</Span>
               </Link>
@@ -217,7 +217,7 @@ const Dashboard = ({ setSignInOpen }) => {
           </FilterContainer>
           <FilterContainer>
             <Link to={`/showpodcasts/news`} style={{ textDecoration: "none" }}>
-              <Topic>News
+              <Topic>Web Development
                 <Span>Show All</Span>
               </Topic>
             </Link>
@@ -229,7 +229,7 @@ const Dashboard = ({ setSignInOpen }) => {
           </FilterContainer>
           <FilterContainer>
             <Link to={`/showpodcasts/crime`} style={{ textDecoration: "none" }}>
-              <Topic>Crime
+              <Topic>App Development
                 <Span>Show All</Span>
               </Topic>
             </Link>
@@ -241,7 +241,7 @@ const Dashboard = ({ setSignInOpen }) => {
           </FilterContainer>
           <FilterContainer>
             <Link to={`/showpodcasts/sports`} style={{ textDecoration: "none" }}>
-              <Topic>Sports
+              <Topic>Cybersecurity
                 <Span>Show All</Span>
               </Topic>
             </Link>

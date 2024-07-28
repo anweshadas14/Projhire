@@ -152,7 +152,7 @@ const Menu = ({ setMenuOpen, darkMode, setDarkMode, setUploadOpen }) => {
             }} style={{ textDecoration: "none", color: "inherit", width: '100%' }}>
                 <Elements>
                     <BackupRoundedIcon />
-                    <NavText>Upload</NavText>
+                    <NavText>Upload Project</NavText>
                 </Elements>
             </Link>
             {/* Messages */}

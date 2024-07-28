@@ -127,7 +127,7 @@ const Search = () => {
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                 <Search_whole>
                     <SearchOutlinedIcon sx={{ "color": "inherit" }} />
-                    <input type='text' placeholder='Search Artist/Podcast'
+                    <input type='text' placeholder='Search Projects'
                         style={{ "border": "none", "outline": "none", "width": "100%", "background": "inherit", "color": "inherit" }}
                         value={searched}
                         onChange={(e) => handleChange(e)} />
@@ -154,7 +154,7 @@ const Search = () => {
                         :
                         <SearchedCards>
                             {searchedPodcasts.length === 0 ?
-                                <DisplayNo>No Podcasts Found</DisplayNo>
+                                <DisplayNo>No Projects Found</DisplayNo>
                                 :
                                 <>
                                     <TopResult podcast={searchedPodcasts[0]} />

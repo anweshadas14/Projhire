@@ -290,7 +290,7 @@ const PodcastDetails = () => {
             </Details>
           </Top>
           <Episodes>
-            <Topic>All Episodes</Topic>
+            <Topic>All Projects</Topic>
             <EpisodeWrapper>
               {podcast?.episodes.map((episode, index) => (
                 <Episodecard episode={episode} podid={podcast} type={podcast.type} user={user} index={index} />

@@ -327,15 +327,15 @@ const Upload = ({ setUploadOpen }) => {
                         }}
                         onClick={() => setUploadOpen(false)}
                     />
-                    <Title>Upload Podcast</Title>
+                    <Title>Upload Project</Title>
                     {!showEpisode ? (
                         <>
-                            <Label>Podcast Details:</Label>
+                            <Label>Project Details:</Label>
 
                             <ImageSelector podcast={podcast} setPodcast={setPodcast} />
                             <OutlinedBox style={{ marginTop: "12px" }}>
                                 <TextInput
-                                    placeholder="Podcast Name*"
+                                    placeholder="Project Name*"
                                     type="text"
                                     value={podcast?.name}
                                     onChange={(e) => setPodcast({ ...podcast, name: e.target.value })}
@@ -343,7 +343,7 @@ const Upload = ({ setUploadOpen }) => {
                             </OutlinedBox>
                             <OutlinedBox style={{ marginTop: "6px" }}>
                                 <Desc
-                                    placeholder="Podcast Description* "
+                                    placeholder="Project Description* "
                                     name="desc"
                                     rows={5}
                                     value={podcast?.desc}
